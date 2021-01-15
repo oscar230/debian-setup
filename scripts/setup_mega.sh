@@ -18,3 +18,6 @@ sudo apt-get install -y /tmp/megasync.deb /tmp/nautilus-megasync.deb /tmp/megacm
 #(cd /tmp/megacmd; ./configure)
 #(cd /tmp/megacmd; make)
 #(cd /tmp/megacmd; make install)
+
+# Setup
+# TODO make interactive login and setup.
