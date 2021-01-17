@@ -9,7 +9,7 @@ sudo apt-get update
 sudo apt-get upgrade -y
 
 # General apps
-sudo apt-get install -y vim dconf-editor wget curl git git chromium vlc onionshare audacity libreoffice libreoffice-gnome texlive-full htop default-jre transmission filezilla gimp gparted p7zip-full nmap alacarte afl ffmpeg tesseract-ocr keepassxc
+sudo apt-get install -y vim dconf-editor wget curl git git chromium vlc onionshare audacity libreoffice libreoffice-gnome texlive-full htop default-jre transmission filezilla gimp gparted p7zip-full nmap alacarte afl ffmpeg tesseract-ocr keepassxc mat2
 sh scripts/setup_discord.sh
 sh scripts/setup_gpg.sh
 sh scripts/setup_ssh.sh
