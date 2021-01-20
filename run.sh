@@ -28,6 +28,7 @@ sh scripts/setup_popcorntime.sh
 sh scripts/setup_tor_browser.sh
 sh scripts/setup_unrar.sh
 sh scripts/setup_xmpp.sh
+sh scripts/setup_gnome_systemtray.sh
 
 # Developer apps
 sh scripts/setup_nodejs.sh
