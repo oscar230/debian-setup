@@ -38,6 +38,7 @@ sh scripts/setup_virtualbox.sh
 sh scripts/setup_dev.sh
 sh scripts/setup_vscode.sh
 sh scripts/setup_arduino.sh
+sh scripts/setup_powershell.sh
 
 # Cleanup
 sudo apt-get autoremove -y
