@@ -6,9 +6,6 @@ sudo apt-get install -y pidgin pidgin-otr
 
 # PIDGIN INDICATOR
 # Install
-sudo apt-get install -y libappindicator1 libappindicator-dev appindicator3-0.1 libappindicator3-dev pidgin-dev autoconf automake libtool intltool libgtk-3-dev
-git clone "git@github.com:philipl/pidgin-indicator.git" /tmp/pidgin-indicator
-(cd /tmp/pidgin-indicator; autoreconf -i)
-(cd /tmp/pidgin-indicator; ./configure)
-(cd /tmp/pidgin-indicator; make)
-(cd /tmp/pidgin-indicator; make install-am)
+sudo apt-get install -y libappindicator1
+wget "http://ppa.launchpad.net/nilarimogard/webupd8/ubuntu/pool/main/p/pidgin-indicator/pidgin-indicator_1.0-1~webupd8~zesty0_amd64.deb" -O /tmp/pidgin-indicator.deb
+sudo apt-get install -y /tmp/pidgin-indicator.deb
